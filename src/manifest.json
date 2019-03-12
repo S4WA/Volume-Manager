@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+	"name": "Volume Manager",
+	"description": "ドメインごとに音量の調節ができます。",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/S4WA/Volume-Manager",
+	"background": {
+		"scripts": [
+			"bg.js"
+		]
+	},
+	"permissions": [
+		"tabs", "storage"
+	],
+	"browser_action": {
+		"default_icon": "files/icon.png",
+		"default_popup": "popup/popup.html"
+	},
+	"icons": {
+		"16": "files/icon.png",
+		"48": "files/icon.png",
+		"128": "files/icon.png"
+	}
+}
