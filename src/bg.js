@@ -6,8 +6,7 @@ setInterval(function() {
 				url: items[i]
 			}, function (result) {
 				for (var i = 0; i < result.length; i++) {
-					if (!result[i].mutedInfo.muted) {
-						
+					if (result[i].active && !result[i].mutedInfo.muted) {
 					}
 				}
 			});
